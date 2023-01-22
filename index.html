@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhakanaka Production</title>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                yellow: "#FECC02",
+                black: "#131313",
+                gray: "#4E4E4E",
+              },
+              fontFamily :{
+                beba : ["Bebas Neue", "cursive"],
+                rat :["Montserrat", "sans-serif"],
+              },
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header>
+        <!-- nav  -->
+        <section class="container mx-auto font-beba flex flex-wrap justify-between p-5 fixe">
+            <h3 class="text-5xl	">Jhaka Naka Production</h3>
+            <ul class="flex gap-10 text-lg">
+                <li>about us</li>
+                <li>our movies</li>
+                <li>services</li>
+            </ul>
+        </section>
+        <!-- banner -->
+        <section class="font-beba text-white">
+            <div class="">
+                <div class="bg-[url('/images/banner.jpg')] h-screen">
+                    <div class="container mx-auto">
+                    <div class="pl-3 md:pt-64 pt-20">
+                        <p class="text-xl  ">movie production studio </p>
+                    <h2 class="text-8xl ">films made to <br> <span class="text-yellow">perfection </span> </h2>
+                    <p class="font-rat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat <br> exercitationem minus aut aperiam repudiandae deserunt incidunt vero fugiat ducimus maiores.</p>
+                    <button class="border-2 px-6 py-4 mt-5 ">discover more</button>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- about  -->
+        <section class="container mx-auto font-beba border mt-10">
+            <div class="md:p-10 grid grid-cols-1 md:grid-cols-2  gap-10 item-center">
+                <div class=" p-3">
+                    <img src="images/camera-man.jpg" alt="">
+                    <div class="bg-white w-3/4 text-3xl shadow relative -top-8 rounded-lg -right-16 text-center p-5">
+                        <h2>23 YEARS of EXPERIENCE</h2>
+                    </div>
+                </div>
+                <div class=" p-3">
+                    <p>About us</p>
+                    <h1 class="text-8xl">FIlming Experience</h1>
+                    <h1 class="text-8xl">Just Got better</h1>
+                    <button class="p-4 border-2 mt-10 ">Discover More</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 p-10">
+                <div>
+                    <hr class="border-2 mb-4">
+                    <h2 class="text-5xl mb-3">our vision</h2>
+                    <p class="text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic autem ut aperiam ipsam minus aliquid veritatis sit blanditiis libero sunt.</p>
+                </div>
+                <div>
+                    <hr class="border-2 mb-4">
+                    <h2 class="text-5xl mb-3">our vision</h2>
+                    <p class="text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic autem ut aperiam ipsam minus aliquid veritatis sit blanditiis libero sunt.</p>
+                </div>
+                <div>
+                    <hr class="border-2 mb-4">
+                    <h2 class="text-5xl mb-3">our vision</h2>
+                    <p class="text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic autem ut aperiam ipsam minus aliquid veritatis sit blanditiis libero sunt.</p>
+                </div>
+            </div>
+        </section>
+        <!-- collection  -->
+        <section class="bg-gray text-white font-beba uppercase items-center">
+            <div class="container mx-auto py-10 px-2 my-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 ">
+                    <div class="">
+                        <p class="text-lg">our movies</p>
+                        <h1 class="text-5xl">Movie Collection</h1>
+                    </div>
+                    <div class="ml-auto">
+                        <button class="border p-5 text-xl">see more movies</button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
+                    <div class="border-2 p-4">
+                        <img src="images/inception.jpg" alt="" class="">
+                    </div>
+                    <div class="border-2 p-4">
+                        <img src="images/fractured.jpg" alt="" class="">
+                    </div>
+                    <div class="border-2 p-4">
+                        <img src="images/interstellar.jpg" alt="" class="">
+                    </div>
+                    <div class="border-2 p-4">
+                        <img src="images/tenet.jpg" alt="" class="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services -->
+        <section class="container mx-auto font-beba ">
+            <p class="text-lg text-center">services</p>
+            <h2 class="text-6xl text-center">what we offer</h2>
+            <div class="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-2 gap-10 text-center mt-5">
+                <div class="border-2 p-5">
+                    <img src="images/icons/3d-glasss.png" alt="" class="mx-auto">
+                    <h4>Movie Director </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, hic!</p>
+                </div>
+                <div class="border-2 p-5">
+                    <img src="images/icons/camera.png" alt="" class="mx-auto">
+                    <h4>Movie Director </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, hic!</p>
+                </div>
+                <div class="border-2 p-5">
+                    <img src="images/icons/count-down.png" alt="" class="mx-auto">
+                    <h4>Movie Director </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, hic!</p>
+                </div>
+                <div class="border-2 p-5">
+                    <img src="images/icons/cut-board.png" alt="" class="mx-auto">
+                    <h4>Movie Director </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, hic!</p>
+                </div>
+                <div class="border-2 p-5">
+                    <img src="images/icons/director-chair.png" alt="" class="mx-auto">
+                    <h4>Movie Director </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, hic!</p>
+                </div>
+                <div class="border-2 p-5">
+                    <img src="images/icons/film.png" alt="" class="mx-auto">
+                    <h4>Movie Director </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, hic!</p>
+                </div>
+                <div class="border-2 p-5">
+                    <img src="images/icons/rim.png" alt="" class="mx-auto">
+                    <h4>Movie Director </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, hic!</p>
+                </div>
+                <div class="border-2 p-5">
+                    <img src="images/icons/theater.png" alt="" class="mx-auto">
+                    <h4>Movie Director </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, hic!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[url('/images/footer-bg.jpg')] h-[400px] bg-cover mt-16 p-8 text-white font-beba  text-center">
+        
+            <h1 class="text-6xl mt-5">jhaka naka production</h1>
+            <h4 class="text-xl mb-5">next level experience</h4>
+            <p class="font-rat">Feugiat nibh litora semper proin nullam facilisi 
+                volutpat ex ullamcorper.</p>
+            <p class="font-rat md:mt-44 mt-10">Copyright © 2021 Jhaka Naka Production, All rights reserved. Present by Mir Hussain</p>
+    </footer>
+</body>
+</html>
